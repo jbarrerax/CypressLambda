@@ -1,0 +1,9 @@
+# Commands to start on workspace startup
+image: "cypress/included:8.3.0"
+tasks:
+  - init: yarn install
+    command: yarn cypress:run
+# Ports to expose on workspace startup
+ports:
+  - port: 8000
+    onOpen: open-preview
