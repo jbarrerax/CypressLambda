@@ -1,9 +1,5 @@
-# Commands to start on workspace startup
-image: "cypress/included:8.3.0"
 tasks:
-  - init: yarn install
-    command: yarn cypress:run
-# Ports to expose on workspace startup
-ports:
-  - port: 8000
-    onOpen: open-preview
+  - init: |
+      docker-compose pull
+  - command: |
+      docker-compose up --exit-code-from cypress_e2e
