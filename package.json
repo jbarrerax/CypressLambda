@@ -1,0 +1,35 @@
+{
+  "name": "ultrae2eframework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cy:run:chrome": "cypress run --env allure=true --browser chrome ",
+    "cy:run:firefox": "cypress run --browser firefox",
+    "lint": "eslint . --ext .js",
+    "docker:run": "docker-compose up --exit-code-from cypress_e2e",
+    "allure:report": "allure generate allure-results --clean -o allure-report",
+    "allure:clear": "rm -r allure-results/ allure-report cypress/screenshots || true",
+    "allure:history": "mv -f allure-report/history allure-results/history || true",
+    "e2e": "yarn cy:run:chrome && yarn allure:report && yarn allure:history && allure open"
+  },
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.23.0",
+    "allure-commandline": "^2.17.2",
+    "axe-core": "^4.3.5",
+    "cypress": "^9.2.0",
+    "cypress-audit": "^1.1.0",
+    "cypress-axe": "^0.13.0",
+    "cypress-downloadfile": "^1.2.1",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-lighthouse": "^0.1.0",
+    "cypress-localstorage-commands": "^1.6.1",
+    "eslint": "^7.32.0",
+    "eslint-plugin-cypress": "^2.12.1"
+  },
+  "browser": {
+    "[module-name]": false
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "baseUrl": "https://www.lambdatest.com",
+  "chromeWebSecurity": false,
+  "viewportWidth": 1920,
+  "viewportHeight": 1080,
+  "ignoreTestFiles": [],
+  "$schema": "https://on.cypress.io/cypress.schema.json",
+  "video": true
+}

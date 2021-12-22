@@ -1,0 +1,421 @@
+{
+  "uid" : "c637c07c31369eff",
+  "name" : "Step 6: Go to Selenium Page and Wait for elements load completely.",
+  "fullName" : "Step 6: Go to Selenium Page and Wait for elements load completely.",
+  "historyId" : "87f6b2a7fc82752404e24a85925ab95d",
+  "time" : {
+    "start" : 1640194870966,
+    "stop" : 1640194875327,
+    "duration" : 4361
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1640194870967,
+        "stop" : 1640194870999,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "viewport samsung-note9",
+        "time" : {
+          "start" : 1640194870994,
+          "stop" : 1640194870998,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "preserveCookie",
+        "time" : {
+          "start" : 1640194870998,
+          "stop" : 1640194870998,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "restoreLocalStorage",
+        "time" : {
+          "start" : 1640194870998,
+          "stop" : 1640194870999,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "visit /selenium-automation",
+      "time" : {
+        "start" : 1640194871000,
+        "stop" : 1640194875321,
+        "duration" : 4321
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 401 https://accounts.lambdatest.com/api/user",
+      "time" : {
+        "start" : 1640194875320,
+        "stop" : 1640194875320,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://api.browsee.io/sessionstate?_a=86a1940911d99fdcb38641435b45f79155fc24346fcee565&_u=14a054e7-b072-e947-cfa0-e37947fe6cdf&_d=0&_l=/selenium-automation",
+      "time" : {
+        "start" : 1640194875320,
+        "stop" : 1640194875320,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j96&a=1552165113&t=pageview&_s=1&dl=https://www.lambdatest.com/selenium-automation&ul=en-us&de=UTF-8&dt=Selenium Testing Tool | Online Selenium Test Automation&sd=24-bit&sr=1280x720&vp=393x846&je=0&_u=YEBAAEABAAAAAC~&jid=142890828&gjid=901054403&cid=1466796272.1640194873&tid=UA-101210471-1&_gid=1994832442.1640194873&_r=1&_slc=1&cd3=1640194872442.5ufn724&cd4=2021-12-22T23:11:12.443-05:00&cd2=1466796272.1640194873&z=1940840960",
+      "time" : {
+        "start" : 1640194875320,
+        "stop" : 1640194875320,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 https://www.google-analytics.com/j/collect?v=1&_v=j96&a=1552165113&t=pageview&_s=1&dl=https%3A%2F%2Fwww.lambdatest.com%2Fselenium-automation&ul=en-us&de=UTF-8&dt=Selenium%20Testing%20Tool%20%7C%20Online%20Selenium%20Test%20Automation&sd=24-bit&sr=1280x720&vp=393x846&je=0&_u=YEBAAEABAAAAAC~&jid=142890828&gjid=901054403&cid=1466796272.1640194873&tid=UA-101210471-1&_gid=1994832442.1640194873&_r=1&_slc=1&cd3=1640194872442.5ufn724&cd4=2021-12-22T23%3A11%3A12.443-05%3A00&cd2=1466796272.1640194873&z=1940840960",
+      "time" : {
+        "start" : 1640194875320,
+        "stop" : 1640194875320,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-101210471-1&cid=1466796272.1640194873&jid=142890828&gjid=901054403&_gid=1994832442.1640194873&_u=YEBAAEAAAAAAAC~&z=80454260",
+      "time" : {
+        "start" : 1640194875320,
+        "stop" : 1640194875320,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 https://api.getsitekit.com/v1/sk-public/site/settings.json",
+      "time" : {
+        "start" : 1640194875320,
+        "stop" : 1640194875320,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 https://api.browsee.io/sessionstate?_a=86a1940911d99fdcb38641435b45f79155fc24346fcee565&_u=14a054e7-b072-e947-cfa0-e37947fe6cdf&_d=0&_l=%2Fselenium-automation",
+      "time" : {
+        "start" : 1640194875320,
+        "stop" : 1640194875320,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 https://api.amplitude.com/",
+      "time" : {
+        "start" : 1640194875320,
+        "stop" : 1640194875320,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 https://t.influ2.com/u/?cb=1640194873314",
+      "time" : {
+        "start" : 1640194875320,
+        "stop" : 1640194875320,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 https://api.getsitekit.com/v1/feature-switch/get-data/frontend/17509",
+      "time" : {
+        "start" : 1640194875320,
+        "stop" : 1640194875320,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 https://api.amplitude.com/",
+      "time" : {
+        "start" : 1640194875320,
+        "stop" : 1640194875320,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://b.clarity.ms/collect",
+      "time" : {
+        "start" : 1640194875320,
+        "stop" : 1640194875320,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://salesiq.zoho.com/visitor/v2/channels/website?widgetcode=d1ee6fd4ff5d0c8d42602e4daf8e2423ae35f6e10145858a61d7d68481ee1ff1&internal_channel_req=true&language_api=true&browser_language=en&current_domain=https://lambdatest.com&pagetitle=Selenium Testing Tool | Online Selenium Test Automation&include_fields=avuid",
+      "time" : {
+        "start" : 1640194875321,
+        "stop" : 1640194875321,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://accounts.google.com/gsi/status?client_id=520751746127-er1e840ogof6qlvvrmd1hrckuik6nm33.apps.googleusercontent.com&as=IyMVIpKJpOYcOfF1BfdNXw",
+      "time" : {
+        "start" : 1640194875321,
+        "stop" : 1640194875321,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "url",
+      "time" : {
+        "start" : 1640194875321,
+        "stop" : 1640194875327,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **https://www.lambdatest.com/selenium-automation** to match /selenium-automation/",
+      "time" : {
+        "start" : 1640194875327,
+        "stop" : 1640194875327,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "https://www.lambdatest.com/selenium-automation"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1640194875349,
+        "stop" : 1640194875351,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "saveLocalStorage",
+        "time" : {
+          "start" : 1640194875350,
+          "stop" : 1640194875350,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 23,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Steps 6 and 14"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1966ad807c39652e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640194784364,
+        "stop" : 1640194788729,
+        "duration" : 4365
+      }
+    }, {
+      "uid" : "19a821a842815d41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640194742044,
+        "stop" : 1640194746392,
+        "duration" : 4348
+      }
+    }, {
+      "uid" : "16bd7aba25d6ba01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1640192456185,
+        "stop" : 1640192456720,
+        "duration" : 535
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c637c07c31369eff.json",
+  "parameterValues" : [ ]
+}

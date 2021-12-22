@@ -1,0 +1,38 @@
+{
+  "uid" : "193a049863294458",
+  "name" : "Step 4: Should allow to engage with alert pop-up and answer feedback form",
+  "fullName" : "Step 4: Should allow to engage with alert pop-up and answer feedback form",
+  "historyId" : "84dfe000bf609a81de5a24ecdb82b153",
+  "time" : {
+    "start" : 1640194742041,
+    "stop" : 1640194742042,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Steps 1 to 5"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "193a049863294458.json",
+  "parameterValues" : [ ]
+}

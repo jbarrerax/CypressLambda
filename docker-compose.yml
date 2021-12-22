@@ -1,0 +1,12 @@
+version: '3.3'
+services:
+  cypress_e2e:
+    image: "cypress/included:8.3.0"
+    build: ./
+    container_name: cypress
+    environment:
+      - CYPRESS_baseUrl=https://www.lambdatest.com
+    command: yarn cypress:run
+    working_dir: /e2e
+    volumes:
+      - ./:/e2e
